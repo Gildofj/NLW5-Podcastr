@@ -126,7 +126,7 @@ export const getStaticProps: GetStaticProps = async () => {
 
   const episodes = data.map((episode) => {
     return {
-      id: episode.id,
+      id: episode._id,
       title: episode.title,
       thumbnail: episode.thumbnail,
       members: episode.members,
